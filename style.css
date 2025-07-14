@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    width: 1124px;
+    margin: 50px auto 50px;
+}
+
+nav img {
+    height: 45px;
+    width: 159px;
+}
+
+.search-bar {
+    height: 48px;
+    width: 509px;
+    background-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 30px;
+
+
+}
+
+.search-bar i {
+    color: #6f6d6d;
+}
+
+.search-bar input {
+    outline: none;
+    border: none;
+    background-color: #CCCCCC;
+}
+
+.nav-btn {
+    width: 345px;
+
+}
+
+.nav-btn ul {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn li {
+    list-style: none;
+}
+
+.nav-btn li a {
+    text-decoration: none;
+    color: #6f6d6d;
+}
+
+
+/* banner - style  */
+
+.banner{
+    height: 455px;
+    width: 1212px;
+    background-color: #FEEAE9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 50px;
+}
+.banner-content{
+    height: 319px;
+    width: 560px;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+
+}
+.banner-description{
+    color: #6f6d6d;
+}
+.price{
+    font-size: 41px;
+    font-weight: 600;
+    color: #FF136F;
+}
+.banner button{
+    height: 52px;
+    width: 168px;
+    background-image: linear-gradient(to top,#FF136F,#f990bd);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.banner-logo img{
+    height: 378px;
+    width: 402px;
+}
