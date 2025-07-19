@@ -151,14 +151,22 @@ nav img {
 main{
     background-color: #F4F4F4;
 }
-.shoes{
-    margin-bottom: 50px;
+.shoes , .bag{
+    padding-bottom: 50px;
 }
-.shoes-cart{
+.shoes-title, .bag-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.see-all{
+    border: none;
+    font-size: 20px;
+    color: #FF9D00;
+    background-color: transparent;
+}
+.shoes-cart,.bag-cart{
     flex-direction: column;
-    gap: 20px;
-}
-.shoes-cart{
+    gap: 10px;
     height: 532px;
     width: 360px;
     padding: 24px;
@@ -171,13 +179,17 @@ main{
     margin: 0 auto;
     justify-content: space-between;
 }
-.shoes-cart{
+.shoes-cart,.bag-cart{
     border-radius: 15px;
 }
 
 .shoes-cart img{
     height: 200px;
     width: 336px;
+}
+.bag-cart img{
+    height: 290px;
+    width: 290px;
 }
 
 .cart-title{
@@ -195,4 +207,56 @@ main{
     height: 52px;
     width: 168px;
     padding: 14px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+footer{
+    height: 455px;
+    width: 1212px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #f9b8d48d;
+    border-radius: 20px;
+    padding: 150px 0;
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-des{
+    margin-bottom: 10px;
+}
+footer input{
+    display: inline;
+    height: 73px;
+    width: calc(683px - 153px);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 20px;
+    border: none;
+}
+footer input[placeholder]{
+    font-size: 24px;
+}
+.send-btn{
+    display: inline;
+    height: 73px;
+    width: 153px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    background-image: linear-gradient(to top,#FF136F,#FF589B);
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
 }
